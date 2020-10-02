@@ -1,0 +1,35 @@
+{
+  "apis": [
+    {
+      "api": "/uam/",
+      "description": "list user",
+      "method": "GET"
+    },
+    {
+      "api": "/uam/{cuid}/{uuid}",
+      "description": "get user",
+      "method": "GET"
+    },
+    {
+      "api": "/customerid/",
+      "description": "list customers",
+      "method": "GET"
+    },
+    {
+      "api": "/customerid/{cuid}",
+      "description": "get customer",
+      "method": "GET"
+    },
+    {
+      "api": "/entity/{cuid}",
+      "description": "list entity",
+      "method": "GET"
+    },
+    {
+      "api": "/entity/{cuid}/{euid}",
+      "description": "get entity",
+      "method": "GET"
+    }
+  ],
+  "role": "account-manager"
+}
