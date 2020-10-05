@@ -1,6 +1,11 @@
 {
   "apis": [
     {
+      "api": "/uam/{cuid}/{uuid}",
+      "description": "update user",
+      "method": "PUT"
+    },
+    {
       "api": "/uam/",
       "description": "list user",
       "method": "GET"
@@ -19,6 +24,11 @@
       "api": "/customerid/{cuid}",
       "description": "get customer",
       "method": "GET"
+    },
+    {
+      "api": "/entity/{cuid}/{euid}",
+      "description": "update entity",
+      "method": "PUT"
     },
     {
       "api": "/entity/{cuid}",

@@ -2,6 +2,16 @@
   "apis": [
     {
       "api": "/uam/",
+      "description": "create user",
+      "method": "POST"
+    },
+    {
+      "api": "/uam/{cuid}/{uuid}",
+      "description": "update user",
+      "method": "PUT"
+    },
+    {
+      "api": "/uam/",
       "description": "list user",
       "method": "GET"
     },
@@ -12,6 +22,11 @@
     },
     {
       "api": "/customerid/",
+      "description": "update customers",
+      "method": "PUT"
+    },
+    {
+      "api": "/customerid/",
       "description": "list customers",
       "method": "GET"
     },
@@ -19,6 +34,16 @@
       "api": "/customerid/{cuid}",
       "description": "get customer",
       "method": "GET"
+    },
+    {
+      "api": "/entity/{cuid}",
+      "description": "create entity",
+      "method": "POST"
+    },
+    {
+      "api": "/entity/{cuid}/{euid}",
+      "description": "update entity",
+      "method": "PUT"
     },
     {
       "api": "/entity/{cuid}",
