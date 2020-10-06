@@ -29,6 +29,11 @@
       "api": "/entity/{cuid}/{euid}",
       "description": "get entity",
       "method": "GET"
+    },
+    {
+      "api": "/login/history",
+      "description": "login history",
+      "method": "POST"
     }
   ],
   "role": "support"
