@@ -54,6 +54,36 @@
       "api": "/login/history",
       "description": "login history",
       "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-asset-overview",
+      "description": "dashboard asset overview",
+      "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-asset-overview-by-category",
+      "description": "dashboard asset overview details",
+      "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-cost-overview",
+      "description": "dashboard cost overview",
+      "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+      "description": "dashboard cost overview detail",
+      "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-security-overview",
+      "description": "dashboard security overview",
+      "method": "POST"
+    },
+    {
+      "api": "/api-core/compliance-dashboard/customer-security-overview-by-policy",
+      "description": "dashboard security overview detail",
+      "method": "POST"
     }
   ],
   "role": "super-admin"
