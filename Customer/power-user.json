@@ -69,6 +69,16 @@
       "api": "/api-core/compliance-dashboard/customer-security-overview-by-policy",
       "description": "dashboard security overview detail",
       "method": "POST"
+    },
+    {
+      "api": "/actmgmt-aws/{cuid}/accounts",
+      "description": "list account",
+      "method": "POST"
+    },
+    {
+      "api": "/actmgmt-aws/{cuid}/{accountId}",
+      "description": "get account",
+      "method": "GET"
     }
   ],
   "role": "power-user"

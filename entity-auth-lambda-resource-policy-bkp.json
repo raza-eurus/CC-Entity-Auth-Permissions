@@ -1,0 +1,76 @@
+{
+  "Version": "2012-10-17",
+  "Id": "default",
+  "Statement": [
+    {
+      "Sid": "cw-uam-dev-AuthorizerLambdaPermissionApiGateway-GRFHJDK2070B",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "apigateway.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:270944247082:function:cecurecloud-api-core-request-entity-authorizer",
+      "Condition": {
+        "ArnLike": {
+          "AWS:SourceArn": "arn:aws:execute-api:us-east-1:270944247082:isnkgt2cgl/*/*"
+        }
+      }
+    },
+    {
+      "Sid": "cw-customers-dev-AuthorizerLambdaPermissionApiGateway-KZRHMSVNUF5J",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "apigateway.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:270944247082:function:cecurecloud-api-core-request-entity-authorizer",
+      "Condition": {
+        "ArnLike": {
+          "AWS:SourceArn": "arn:aws:execute-api:us-east-1:270944247082:jpldw4mrw7/*/*"
+        }
+      }
+    },
+    {
+      "Sid": "cw-entity-dev-AuthorizerLambdaPermissionApiGateway-O6LEYIG1ASJP",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "apigateway.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:270944247082:function:cecurecloud-api-core-request-entity-authorizer",
+      "Condition": {
+        "ArnLike": {
+          "AWS:SourceArn": "arn:aws:execute-api:us-east-1:270944247082:lww3moz6if/*/*"
+        }
+      }
+    },
+    {
+      "Sid": "cw-login-dev-AuthorizerLambdaPermissionApiGateway-23QE6K5VH0KZ",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "apigateway.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:270944247082:function:cecurecloud-api-core-request-entity-authorizer",
+      "Condition": {
+        "ArnLike": {
+          "AWS:SourceArn": "arn:aws:execute-api:us-east-1:270944247082:5hjnjkxwb0/*/*"
+        }
+      }
+    },
+    {
+      "Sid": "ec4b5a1b-b702-48ab-9204-8e5b03125cf2",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "apigateway.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:270944247082:function:cecurecloud-api-core-request-entity-authorizer",
+      "Condition": {
+        "ArnLike": {
+          "AWS:SourceArn": "arn:aws:execute-api:us-east-1:270944247082:afznb9ddx5/authorizers/jvhll5"
+        }
+      }
+    }
+  ]
+}
