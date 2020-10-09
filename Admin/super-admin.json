@@ -154,6 +154,11 @@
       "api": "/actmgmt-gcp/{cuid}/{accountId}",
       "description": "update project",
       "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-report1-aws/",
+      "description": "get aws cost report",
+      "method": "POST"
     }
   ],
   "role": "super-admin"

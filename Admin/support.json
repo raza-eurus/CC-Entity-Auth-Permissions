@@ -94,6 +94,11 @@
       "api": "/actmgmt-gcp/{cuid}/{accountId}",
       "description": "get project",
       "method": "GET"
+    },
+    {
+      "api": "/cstmgmt-report1-aws/",
+      "description": "get aws cost report",
+      "method": "POST"
     }
   ],
   "role": "support"
