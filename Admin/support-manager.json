@@ -84,6 +84,16 @@
       "api": "/actmgmt-aws/{cuid}/{accountId}",
       "description": "get account",
       "method": "GET"
+    },
+    {
+      "api": "/actmgmt-azure/{cuid}/accounts",
+      "description": "list subscription",
+      "method": "POST"
+    },
+    {
+      "api": "/actmgmt-azure/{cuid}/{accountId}",
+      "description": "get subscription",
+      "method": "GET"
     }
   ],
   "role": "support-manager"

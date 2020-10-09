@@ -119,6 +119,21 @@
       "api": "/actmgmt-aws/{cuid}/{accountId}",
       "description": "update account",
       "method": "POST"
+    },
+    {
+      "api": "/actmgmt-azure/{cuid}/accounts",
+      "description": "list subscription",
+      "method": "POST"
+    },
+    {
+      "api": "/actmgmt-azure/{cuid}/{accountId}",
+      "description": "get subscription",
+      "method": "GET"
+    },
+    {
+      "api": "/actmgmt-azure/{cuid}/{accountId}",
+      "description": "update subscription",
+      "method": "POST"
     }
   ],
   "role": "account-group-manager"
