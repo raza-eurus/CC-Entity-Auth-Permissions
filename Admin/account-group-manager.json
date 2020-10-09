@@ -134,6 +134,21 @@
       "api": "/actmgmt-azure/{cuid}/{accountId}",
       "description": "update subscription",
       "method": "POST"
+    },
+    {
+      "api": "/actmgmt-gcp/{cuid}/accounts",
+      "description": "list project",
+      "method": "POST"
+    },
+    {
+      "api": "/actmgmt-gcp/{cuid}/{accountId}",
+      "description": "get project",
+      "method": "GET"
+    },
+    {
+      "api": "/actmgmt-gcp/{cuid}/{accountId}",
+      "description": "update project",
+      "method": "POST"
     }
   ],
   "role": "account-group-manager"

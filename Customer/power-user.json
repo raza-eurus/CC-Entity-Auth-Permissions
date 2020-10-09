@@ -89,6 +89,16 @@
       "api": "/actmgmt-azure/{cuid}/{accountId}",
       "description": "get subscription",
       "method": "GET"
+    },
+    {
+      "api": "/actmgmt-gcp/{cuid}/accounts",
+      "description": "list project",
+      "method": "POST"
+    },
+    {
+      "api": "/actmgmt-gcp/{cuid}/{accountId}",
+      "description": "get project",
+      "method": "GET"
     }
   ],
   "role": "power-user"
