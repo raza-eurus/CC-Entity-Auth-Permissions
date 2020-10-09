@@ -154,6 +154,16 @@
       "api": "/cstmgmt-report1-aws/",
       "description": "get aws cost report",
       "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-report1-azure/",
+      "description": "get azure cost report",
+      "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-report1-gcp/",
+      "description": "get gcp cost report",
+      "method": "POST"
     }
   ],
   "role": "account-group-manager"
