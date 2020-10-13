@@ -109,6 +109,21 @@
       "api": "/cstmgmt-budget1/{cuid}/{buid}",
       "description": "get budget",
       "method": "GET"
+    },
+    {
+      "api": "/astmgmt-cmdb1-aws/",
+      "description": "get assets",
+      "method": "POST"
+    },
+    {
+      "api": "/astmgmt-cmdb1-azure/",
+      "description": "get assets",
+      "method": "POST"
+    },
+    {
+      "api": "/astmgmt-cmdb1-gcp/",
+      "description": "get assets",
+      "method": "POST"
     }
   ],
   "role": "standard"
