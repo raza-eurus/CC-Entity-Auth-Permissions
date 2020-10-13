@@ -224,6 +224,21 @@
       "api": "/onboard-gcp/{ouid}",
       "description": "Get customer by id gcp",
       "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/",
+      "description": "list customer account azure",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/customer/{cuid}",
+      "description": "get customer by id azure",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/{ouid}",
+      "description": "get customer by ouid azure",
+      "method": "GET"
     }
   ],
   "role": "standard"

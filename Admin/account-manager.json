@@ -309,6 +309,36 @@
       "api": "/onboard-gcp/{ouid}/whitelist-customer",
       "description": "Whitelist customer account gcp",
       "method": "POST"
+    },
+    {
+      "api": "/onboard-azure/",
+      "description": "list customer account azure",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/",
+      "description": "create customer account azure",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-azure/customer/{cuid}",
+      "description": "get customer by id azure",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/ses",
+      "description": "send onboarding email azure",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-azure/{ouid}",
+      "description": "get customer by ouid azure",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-azure/{ouid}",
+      "description": "delete customer by ouid azure",
+      "method": "DELETE"
     }
   ],
   "role": "account-manager"
