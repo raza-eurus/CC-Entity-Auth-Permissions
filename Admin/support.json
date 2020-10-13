@@ -109,6 +109,16 @@
       "api": "/cstmgmt-report1-gcp/",
       "description": "get gcp cost report",
       "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}/budgets",
+      "description": "list budget",
+      "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}/{buid}",
+      "description": "get budget",
+      "method": "GET"
     }
   ],
   "role": "support"

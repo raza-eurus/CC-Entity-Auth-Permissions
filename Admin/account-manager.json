@@ -149,6 +149,31 @@
       "api": "/cstmgmt-report1-gcp/",
       "description": "get gcp cost report",
       "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}",
+      "description": "create budget",
+      "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}",
+      "description": "update budget",
+      "method": "PUT"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}/budgets",
+      "description": "list budget",
+      "method": "POST"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}/{buid}",
+      "description": "delete budget",
+      "method": "DELETE"
+    },
+    {
+      "api": "/cstmgmt-budget1/{cuid}/{buid}",
+      "description": "get budget",
+      "method": "GET"
     }
   ],
   "role": "account-manager"
