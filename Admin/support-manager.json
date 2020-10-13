@@ -234,6 +234,16 @@
       "api": "/seccomp-comp1-gcp/get-compliance-exception",
       "description": "get compliance exception",
       "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/customer/{cuid}",
+      "description": "list customer accounts gcp",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-gcp/{ouid}",
+      "description": "Get customer by id gcp",
+      "method": "GET"
     }
   ],
   "role": "support-manager"

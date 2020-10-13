@@ -314,6 +314,16 @@
       "api": "/seccomp-comp1-gcp/policy-severity",
       "description": "update policy severity",
       "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/customer/{cuid}",
+      "description": "list customer accounts gcp",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-gcp/{ouid}",
+      "description": "Get customer by id gcp",
+      "method": "GET"
     }
   ],
   "role": "admin"

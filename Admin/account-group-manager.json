@@ -339,6 +339,36 @@
       "api": "/seccomp-comp1-gcp/policy-severity",
       "description": "update policy severity",
       "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/",
+      "description": "create customer account gcp",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/customer/{cuid}",
+      "description": "list customer accounts gcp",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-gcp/ses",
+      "description": "Email SES gcp",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/{ouid}",
+      "description": "Get customer by id gcp",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-gcp/{ouid}/verify-permissions",
+      "description": "Verify customer permissions gcp",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-gcp/{ouid}/whitelist-customer",
+      "description": "Whitelist customer account gcp",
+      "method": "POST"
     }
   ],
   "role": "account-group-manager"
