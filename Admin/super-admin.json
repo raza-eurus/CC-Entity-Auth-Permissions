@@ -209,6 +209,141 @@
       "api": "/astmgmt-cmdb1-gcp/",
       "description": "get assets",
       "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/",
+      "description": "get compliance policy",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/comp-policy-baseline",
+      "description": "create compliance baseline",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/comp-policy-detail",
+      "description": "get compliance detail",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/comp-policy-history",
+      "description": "get compliance history",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/create-compliance-exception",
+      "description": "create compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/delete-compliance-exception",
+      "description": "delete compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/force-run",
+      "description": "force run compliance",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/get-compliance-exception",
+      "description": "get compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-aws/policy-severity",
+      "description": "update policy severity",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/",
+      "description": "get compliance policy",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/comp-policy-baseline",
+      "description": "create compliance baseline",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/comp-policy-detail",
+      "description": "get compliance detail",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/comp-policy-history",
+      "description": "get compliance history",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/create-compliance-exception",
+      "description": "create compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/delete-compliance-exception",
+      "description": "delete compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/force-run",
+      "description": "force run compliance",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/get-compliance-exception",
+      "description": "get compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-azure/policy-severity",
+      "description": "update policy severity",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/",
+      "description": "get compliance policy",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/comp-policy-baseline",
+      "description": "create compliance baseline",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/comp-policy-detail",
+      "description": "get compliance detail",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/comp-policy-history",
+      "description": "get compliance history",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/create-compliance-exception",
+      "description": "create compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/delete-compliance-exception",
+      "description": "delete compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/force-run",
+      "description": "force run compliance",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/get-compliance-exception",
+      "description": "get compliance exception",
+      "method": "POST"
+    },
+    {
+      "api": "/seccomp-comp1-gcp/policy-severity",
+      "description": "update policy severity",
+      "method": "POST"
     }
   ],
   "role": "super-admin"
