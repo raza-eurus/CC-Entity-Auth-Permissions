@@ -259,6 +259,16 @@
       "api": "/onboard-azure/{ouid}",
       "description": "get customer by ouid azure",
       "method": "GET"
+    },
+    {
+      "api": "/onboard-aws/{ouid}",
+      "description": "get customer account by id aws",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-aws/customer/{cuid}",
+      "description": "list customer account aws",
+      "method": "GET"
     }
   ],
   "role": "support-manager"

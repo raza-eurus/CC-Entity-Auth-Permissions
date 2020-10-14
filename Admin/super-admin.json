@@ -404,6 +404,36 @@
       "api": "/onboard-azure/{ouid}",
       "description": "delete customer by ouid azure",
       "method": "DELETE"
+    },
+    {
+      "api": "/onboard-aws/",
+      "description": "create customer account aws",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-aws/{ouid}",
+      "description": "delete customer account aws",
+      "method": "DELETE"
+    },
+    {
+      "api": "/onboard-aws/{ouid}/verify-permissions",
+      "description": "verify customer account role permissions aws",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-aws/{ouid}/whitelist-customer",
+      "description": "whitelist customer account aws",
+      "method": "POST"
+    },
+    {
+      "api": "/onboard-aws/{ouid}",
+      "description": "get customer account by id aws",
+      "method": "GET"
+    },
+    {
+      "api": "/onboard-aws/customer/{cuid}",
+      "description": "list customer account aws",
+      "method": "GET"
     }
   ],
   "role": "super-admin"
