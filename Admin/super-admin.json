@@ -434,6 +434,86 @@
       "api": "/onboard-aws/customer/{cuid}",
       "description": "list customer account aws",
       "method": "GET"
+    },
+    {
+      "api": "/notification/category",
+      "description": "list notification categories",
+      "method": "GET"
+    },
+    {
+      "api": "/notification/category",
+      "description": "save notification category",
+      "method": "POST"
+    },
+    {
+      "api": "/notification/category/{Id}",
+      "description": "get notification category",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/dashboard",
+      "description": "list customer dashboards",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/dashboard",
+      "description": "create customer dashboard",
+      "method": "POST"
+    },
+    {
+      "api": "/cust-reports/{cuid}/dashboard/{id}",
+      "description": "get customer dashboard",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/dashboard/{id}",
+      "description": "delete customer dashboard",
+      "method": "DELETE"
+    },
+    {
+      "api": "/cust-reports/{cuid}/dashboard/{id}",
+      "description": "update customer dashboard",
+      "method": "PUT"
+    },
+    {
+      "api": "/notification/{cuid}/configuration",
+      "description": "list notification configuration",
+      "method": "GET"
+    },
+    {
+      "api": "/notification/{cuid}/configuration",
+      "description": "save notification configuration",
+      "method": "POST"
+    },
+    {
+      "api": "/notification/{cuid}/configuration/{Id}",
+      "description": "get notification configuration",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report",
+      "description": "list reports",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report",
+      "description": "create reports",
+      "method": "POST"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report/{Id}",
+      "description": "update report",
+      "method": "PUT"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report/{Id}",
+      "description": "get report",
+      "method": "GET"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report/{Id}",
+      "description": "delete report",
+      "method": "DELETE"
     }
   ],
   "role": "super-admin"
