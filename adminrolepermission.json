@@ -1,0 +1,1917 @@
+[
+    {
+       "apis":[
+          {
+             "api":"/uam/",
+             "description":"create user",
+             "method":"POST"
+          },
+          {
+             "api":"/uam/",
+             "description":"list user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"get user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"update user",
+             "method":"PUT"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"delete user",
+             "method":"DELETE"
+          },
+          {
+             "api":"/customerid/",
+             "description":"create customers",
+             "method":"POST"
+          },
+          {
+             "api":"/customerid/",
+             "description":"update customers",
+             "method":"PUT"
+          },
+          {
+             "api":"/customerid/",
+             "description":"list customers",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"get customer",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"create entity",
+             "method":"POST"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"update entity",
+             "method":"PUT"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"delete entity",
+             "method":"DELETE"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"list entity",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"get entity",
+             "method":"GET"
+          },
+          {
+             "api":"/login/history",
+             "description":"login history",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview",
+             "description":"dashboard asset overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview-by-category",
+             "description":"dashboard asset overview details",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview",
+             "description":"dashboard cost overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+             "description":"dashboard cost overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview",
+             "description":"dashboard security overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview-by-policy",
+             "description":"dashboard security overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/accounts",
+             "description":"list account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"get account",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"update account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/accounts",
+             "description":"list subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"get subscription",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"update subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/accounts",
+             "description":"list project",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"get project",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"update project",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-aws/",
+             "description":"get aws cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-azure/",
+             "description":"get azure cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-gcp/",
+             "description":"get gcp cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"create budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"update budget",
+             "method":"PUT"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/budgets",
+             "description":"list budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"delete budget",
+             "method":"DELETE"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"get budget",
+             "method":"GET"
+          },
+          {
+             "api":"/astmgmt-cmdb1-aws/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-azure/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-gcp/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/",
+             "description":"create customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/customer/{cuid}",
+             "description":"list customer accounts gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/ses",
+             "description":"Email SES gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}",
+             "description":"Get customer by id gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/verify-permissions",
+             "description":"Verify customer permissions gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/whitelist-customer",
+             "description":"Whitelist customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"list customer account azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"create customer account azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/customer/{cuid}",
+             "description":"get customer by id azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/ses",
+             "description":"send onboarding email azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"get customer by ouid azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"delete customer by ouid azure",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/",
+             "description":"create customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"delete customer account aws",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/verify-permissions",
+             "description":"verify customer account role permissions aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/whitelist-customer",
+             "description":"whitelist customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"get customer account by id aws",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/customer/{cuid}",
+             "description":"list customer account aws",
+             "method":"GET"
+          }
+       ],
+       "role":"account-group-manager"
+    },
+    {
+       "apis":[
+          {
+             "api":"/uam/",
+             "description":"create user",
+             "method":"POST"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"update user",
+             "method":"PUT"
+          },
+          {
+             "api":"/uam/",
+             "description":"list user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"get user",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/",
+             "description":"update customers",
+             "method":"PUT"
+          },
+          {
+             "api":"/customerid/",
+             "description":"list customers",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"get customer",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"create entity",
+             "method":"POST"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"update entity",
+             "method":"PUT"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"list entity",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"get entity",
+             "method":"GET"
+          },
+          {
+             "api":"/login/history",
+             "description":"login history",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview",
+             "description":"dashboard asset overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview-by-category",
+             "description":"dashboard asset overview details",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview",
+             "description":"dashboard cost overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+             "description":"dashboard cost overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview",
+             "description":"dashboard security overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview-by-policy",
+             "description":"dashboard security overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/accounts",
+             "description":"list account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"get account",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"update account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/accounts",
+             "description":"list subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"get subscription",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"update subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/accounts",
+             "description":"list project",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"get project",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"update project",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-aws/",
+             "description":"get aws cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-azure/",
+             "description":"get azure cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-gcp/",
+             "description":"get gcp cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"create budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"update budget",
+             "method":"PUT"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/budgets",
+             "description":"list budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"delete budget",
+             "method":"DELETE"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"get budget",
+             "method":"GET"
+          },
+          {
+             "api":"/astmgmt-cmdb1-aws/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-azure/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-gcp/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/",
+             "description":"create customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/customer/{cuid}",
+             "description":"list customer accounts gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/ses",
+             "description":"Email SES gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}",
+             "description":"Get customer by id gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/verify-permissions",
+             "description":"Verify customer permissions gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/whitelist-customer",
+             "description":"Whitelist customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"list customer account azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"create customer account azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/customer/{cuid}",
+             "description":"get customer by id azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/ses",
+             "description":"send onboarding email azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"get customer by ouid azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"delete customer by ouid azure",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/",
+             "description":"create customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"delete customer account aws",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/verify-permissions",
+             "description":"verify customer account role permissions aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/whitelist-customer",
+             "description":"whitelist customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"get customer account by id aws",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/customer/{cuid}",
+             "description":"list customer account aws",
+             "method":"GET"
+          }
+       ],
+       "role":"account-manager"
+    },
+    {
+       "apis":[
+          {
+             "api":"/uam/",
+             "description":"create user",
+             "method":"POST"
+          },
+          {
+             "api":"/uam/",
+             "description":"list user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"get user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"update user",
+             "method":"PUT"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"delete user",
+             "method":"DELETE"
+          },
+          {
+             "api":"/customerid/",
+             "description":"create customers",
+             "method":"POST"
+          },
+          {
+             "api":"/customerid/",
+             "description":"update customers",
+             "method":"PUT"
+          },
+          {
+             "api":"/customerid/",
+             "description":"list customers",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"get customer",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"delete customer",
+             "method":"DELETE"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"create entity",
+             "method":"POST"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"update entity",
+             "method":"PUT"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"delete entity",
+             "method":"DELETE"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"list entity",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"get entity",
+             "method":"GET"
+          },
+          {
+             "api":"/login/history",
+             "description":"login history",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview",
+             "description":"dashboard asset overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview-by-category",
+             "description":"dashboard asset overview details",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview",
+             "description":"dashboard cost overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+             "description":"dashboard cost overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview",
+             "description":"dashboard security overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview-by-policy",
+             "description":"dashboard security overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/accounts",
+             "description":"list account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"get account",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"update account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/accounts",
+             "description":"list subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"get subscription",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"update subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/accounts",
+             "description":"list project",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"get project",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"update project",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-aws/",
+             "description":"get aws cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-azure/",
+             "description":"get azure cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-gcp/",
+             "description":"get gcp cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"create budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}",
+             "description":"update budget",
+             "method":"PUT"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/budgets",
+             "description":"list budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"delete budget",
+             "method":"DELETE"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"get budget",
+             "method":"GET"
+          },
+          {
+             "api":"/astmgmt-cmdb1-aws/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-azure/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-gcp/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/create-compliance-exception",
+             "description":"create compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/delete-compliance-exception",
+             "description":"delete compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/policy-severity",
+             "description":"update policy severity",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/",
+             "description":"create customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/customer/{cuid}",
+             "description":"list customer accounts gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/ses",
+             "description":"Email SES gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}",
+             "description":"Get customer by id gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/verify-permissions",
+             "description":"Verify customer permissions gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}/whitelist-customer",
+             "description":"Whitelist customer account gcp",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"list customer account azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"create customer account azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/customer/{cuid}",
+             "description":"get customer by id azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/ses",
+             "description":"send onboarding email azure",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"get customer by ouid azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"delete customer by ouid azure",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/",
+             "description":"create customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"delete customer account aws",
+             "method":"DELETE"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/verify-permissions",
+             "description":"verify customer account role permissions aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}/whitelist-customer",
+             "description":"whitelist customer account aws",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"get customer account by id aws",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/customer/{cuid}",
+             "description":"list customer account aws",
+             "method":"GET"
+          },
+          {
+             "api":"/notification/category",
+             "description":"list notification categories",
+             "method":"GET"
+          },
+          {
+             "api":"/notification/category",
+             "description":"save notification category",
+             "method":"POST"
+          },
+          {
+             "api":"/notification/category/{id}",
+             "description":"get notification category",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/dashboard",
+             "description":"list customer dashboards",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/dashboard",
+             "description":"create customer dashboard",
+             "method":"POST"
+          },
+          {
+             "api":"/cust-reports/{cuid}/dashboard/{id}",
+             "description":"get customer dashboard",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/dashboard/{id}",
+             "description":"delete customer dashboard",
+             "method":"DELETE"
+          },
+          {
+             "api":"/cust-reports/{cuid}/dashboard/{id}",
+             "description":"update customer dashboard",
+             "method":"PUT"
+          },
+          {
+             "api":"/notification/{cuid}/configuration",
+             "description":"list notification configuration",
+             "method":"GET"
+          },
+          {
+             "api":"/notification/{cuid}/configuration",
+             "description":"save notification configuration",
+             "method":"POST"
+          },
+          {
+             "api":"/notification/{cuid}/configuration/{id}",
+             "description":"get notification configuration",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report",
+             "description":"list reports",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report",
+             "description":"create reports",
+             "method":"POST"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report/{Id}",
+             "description":"update report",
+             "method":"PUT"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report/{Id}",
+             "description":"get report",
+             "method":"GET"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report/{Id}",
+             "description":"delete report",
+             "method":"DELETE"
+          },
+          {
+             "api":"/cust-reports/{cuid}/report/clone",
+             "description":"clone report",
+             "method":"POST"
+          },
+          {
+             "api":"/compliance-modules/default-policy-group",
+             "description":"create default policy group",
+             "method":"POST"
+          },
+          {
+             "api":"/compliance-modules/default-policy-group/{Id}",
+             "description":"update default policy group",
+             "method":"PUT"
+          },
+          {
+             "api":"/compliance-modules/default-policy-group/{Id}",
+             "description":"get default policy group",
+             "method":"GET"
+          },
+          {
+             "api":"/compliance-modules/default-policy-group",
+             "description":"list default policy group",
+             "method":"GET"
+          },
+          {
+             "api":"/compliance-modules/compliance-rule",
+             "description":"create compliance rule",
+             "method":"POST"
+          },
+          {
+             "api":"/compliance-modules/compliance-rule/{Id}",
+             "description":"update compliance rule",
+             "method":"PUT"
+          },
+          {
+             "api":"/compliance-modules/compliance-rule/{Id}",
+             "description":"get compliance rule",
+             "method":"GET"
+          },
+          {
+             "api":"/compliance-modules/compliance-rule",
+             "description":"list compliance rule",
+             "method":"GET"
+          }
+       ],
+       "role":"super-admin"
+    },
+    {
+       "apis":[
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"update user",
+             "method":"PUT"
+          },
+          {
+             "api":"/uam/",
+             "description":"list user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"get user",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/",
+             "description":"list customers",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"get customer",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"update entity",
+             "method":"PUT"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"list entity",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"get entity",
+             "method":"GET"
+          },
+          {
+             "api":"/login/history",
+             "description":"login history",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview",
+             "description":"dashboard asset overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview-by-category",
+             "description":"dashboard asset overview details",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview",
+             "description":"dashboard cost overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+             "description":"dashboard cost overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview",
+             "description":"dashboard security overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview-by-policy",
+             "description":"dashboard security overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/accounts",
+             "description":"list account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"get account",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/accounts",
+             "description":"list subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"get subscription",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/accounts",
+             "description":"list project",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"get project",
+             "method":"GET"
+          },
+          {
+             "api":"/cstmgmt-report1-aws/",
+             "description":"get aws cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-azure/",
+             "description":"get azure cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-gcp/",
+             "description":"get gcp cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/budgets",
+             "description":"list budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"get budget",
+             "method":"GET"
+          },
+          {
+             "api":"/astmgmt-cmdb1-aws/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-azure/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-gcp/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/customer/{cuid}",
+             "description":"list customer accounts gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}",
+             "description":"Get customer by id gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"list customer account azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/customer/{cuid}",
+             "description":"get customer by id azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"get customer by ouid azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"get customer account by id aws",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/customer/{cuid}",
+             "description":"list customer account aws",
+             "method":"GET"
+          }
+       ],
+       "role":"support-manager"
+    },
+    {
+       "apis":[
+          {
+             "api":"/uam/",
+             "description":"list user",
+             "method":"GET"
+          },
+          {
+             "api":"/uam/{cuid}/{uuid}",
+             "description":"get user",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/",
+             "description":"list customers",
+             "method":"GET"
+          },
+          {
+             "api":"/customerid/{cuid}",
+             "description":"get customer",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}",
+             "description":"list entity",
+             "method":"GET"
+          },
+          {
+             "api":"/entity/{cuid}/{euid}",
+             "description":"get entity",
+             "method":"GET"
+          },
+          {
+             "api":"/login/history",
+             "description":"login history",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview",
+             "description":"dashboard asset overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-asset-overview-by-category",
+             "description":"dashboard asset overview details",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview",
+             "description":"dashboard cost overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-cost-overview-by-platform",
+             "description":"dashboard cost overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview",
+             "description":"dashboard security overview",
+             "method":"POST"
+          },
+          {
+             "api":"/api-core/compliance-dashboard/customer-security-overview-by-policy",
+             "description":"dashboard security overview detail",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/accounts",
+             "description":"list account",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-aws/{cuid}/{accountId}",
+             "description":"get account",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/accounts",
+             "description":"list subscription",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-azure/{cuid}/{accountId}",
+             "description":"get subscription",
+             "method":"GET"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/accounts",
+             "description":"list project",
+             "method":"POST"
+          },
+          {
+             "api":"/actmgmt-gcp/{cuid}/{accountId}",
+             "description":"get project",
+             "method":"GET"
+          },
+          {
+             "api":"/cstmgmt-report1-aws/",
+             "description":"get aws cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-azure/",
+             "description":"get azure cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-report1-gcp/",
+             "description":"get gcp cost report",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/budgets",
+             "description":"list budget",
+             "method":"POST"
+          },
+          {
+             "api":"/cstmgmt-budget1/{cuid}/{buid}",
+             "description":"get budget",
+             "method":"GET"
+          },
+          {
+             "api":"/astmgmt-cmdb1-aws/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-azure/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/astmgmt-cmdb1-gcp/",
+             "description":"get assets",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-aws/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-azure/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/",
+             "description":"get compliance policy",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-baseline",
+             "description":"create compliance baseline",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-detail",
+             "description":"get compliance detail",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/comp-policy-history",
+             "description":"get compliance history",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/force-run",
+             "description":"force run compliance",
+             "method":"POST"
+          },
+          {
+             "api":"/seccomp-comp1-gcp/get-compliance-exception",
+             "description":"get compliance exception",
+             "method":"POST"
+          },
+          {
+             "api":"/onboard-gcp/customer/{cuid}",
+             "description":"list customer accounts gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-gcp/{ouid}",
+             "description":"Get customer by id gcp",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/",
+             "description":"list customer account azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/customer/{cuid}",
+             "description":"get customer by id azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-azure/{ouid}",
+             "description":"get customer by ouid azure",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/{ouid}",
+             "description":"get customer account by id aws",
+             "method":"GET"
+          },
+          {
+             "api":"/onboard-aws/customer/{cuid}",
+             "description":"list customer account aws",
+             "method":"GET"
+          }
+       ],
+       "role":"support"
+    }
+ ]
