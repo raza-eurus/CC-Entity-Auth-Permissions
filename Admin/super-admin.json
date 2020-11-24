@@ -514,6 +514,11 @@
       "api": "/cust-reports/{cuid}/report/{Id}",
       "description": "delete report",
       "method": "DELETE"
+    },
+    {
+      "api": "/cust-reports/{cuid}/report/clone",
+      "description": "clone report",
+      "method": "POST"
     }
   ],
   "role": "super-admin"
